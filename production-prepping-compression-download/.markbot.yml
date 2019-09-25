@@ -1,0 +1,53 @@
+repo: 'production-prepping-compression'
+canvasCourse: 'web-dev-3'
+
+naming: true
+namingIgnore:
+  - 'assets/Anubis_attending_the_mummy_of_Sennedjem.jpg'
+  - 'assets/BD_Hunefer_cropped_1.jpg'
+
+files:
+  - path: 'assets/Anubis_attending_the_mummy_of_Sennedjem.jpg'
+  - path: 'assets/BD_Hunefer_cropped_1.jpg'
+
+  - path: 'design/anubis.ai'
+
+  - path: 'prod/banner.psd'
+  - path: 'prod/logo.ai'
+  - path: 'prod/mummy.psd'
+
+  - path: 'www/images/banner.jpg'
+    maxSize: 7
+    maxWidth: 320
+    minWidth: 320
+    maxHeight: 54
+    minHeight: 50
+    smushed: true
+  - path: 'www/images/feather-left.svg'
+    maxSize: 1
+    maxWidth: 90
+    minWidth: 87
+    maxHeight: 256
+    minHeight: 256
+    smushed: true
+  - path: 'www/images/feather-right.svg'
+    maxSize: 1
+    maxWidth: 90
+    minWidth: 87
+    maxHeight: 256
+    minHeight: 256
+    smushed: true
+  - path: 'www/images/logo.svg'
+    maxSize: 4
+    maxWidth: 256
+    minWidth: 256
+    maxHeight: 256
+    minHeight: 256
+    smushed: true
+  - path: 'www/images/mummy.jpg'
+    maxSize:
+    maxWidth: 320
+    minWidth: 320
+    maxHeight: 240
+    minHeight: 236
+    smushed: true
